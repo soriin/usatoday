@@ -1,0 +1,22 @@
+{
+  "name": "background-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "Elliot Fisher",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "bluebird": "^3.4.6",
+    "lodash": "^4.17.2"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
+}
